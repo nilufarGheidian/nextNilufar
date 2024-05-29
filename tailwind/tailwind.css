@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .scene {
+        background: #bf9ffa;
+      }
+      
+      .scene path:first-child {
+        @apply fill-[#aefcf8] dark:fill-[#3b817d]
+      }
+      
+      .scene path:nth-child(2) {
+        @apply fill-[#ffacd7] dark:fill-[#8f4d70]
+      }
+      
+      .scene path:nth-child(3) {
+        @apply fill-[#fab682] dark:fill-[#9a6f4e]
+      }
+      
+      .scene path:nth-child(4) {
+        @apply fill-[#94bbe9] dark:fill-[#7191b4]
+      }
+      
+      .scene path:nth-child(5) {
+        @apply fill-[#f8d2ff] dark:fill-[#a288a7]
+      }
+      
+      .scene path:nth-child(6) {
+        @apply fill-[#faea8a] dark:fill-[#a79b58]
+      }
+      
+      .scene path:nth-child(7) {
+        @apply fill-[#b18af8] dark:fill-[#b18af8]
+      }
+      
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 400px;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}
